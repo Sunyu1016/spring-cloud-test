@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-consoumer-movie-feign" />
+        <module name="microservice-consumer-movie" />
+        <module name="microservice-discovery-eureka" />
+        <module name="microservice-discovery-eureka-8762" />
+        <module name="microservice-provider-user-8000" />
+        <module name="microservice-provider-user-8001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-consoumer-movie-feign" target="1.8" />
+      <module name="microservice-consumer-movie" target="1.8" />
+      <module name="microservice-discovery-eureka" target="1.8" />
+      <module name="microservice-discovery-eureka-8762" target="1.8" />
+      <module name="microservice-provider-user" target="1.8" />
+      <module name="microservice-provider-user-8000" target="1.8" />
+      <module name="microservice-provider-user-8001" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
