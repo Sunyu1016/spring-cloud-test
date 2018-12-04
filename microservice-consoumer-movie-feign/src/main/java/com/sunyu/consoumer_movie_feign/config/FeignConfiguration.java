@@ -5,6 +5,7 @@ package com.sunyu.consoumer_movie_feign.config;
  * @date 2018/12/3 17:12
  */
 import feign.Contract;
+import feign.auth.BasicAuthRequestInterceptor;
 import org.springframework.context.annotation.Bean;
 
 /**
@@ -21,4 +22,8 @@ public class FeignConfiguration {
     public Contract feignContract(){
         return new feign.Contract.Default();
     }
+//    @Bean
+//    public BasicAuthRequestInterceptor basicAuthRequestInterceptor(){
+//        return new BasicAuthRequestInterceptor("user","password");
+//    }
 }
