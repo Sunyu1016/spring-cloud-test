@@ -24,17 +24,17 @@ public class MovieController {
     private RestTemplate restTemplate;
     private static final Logger logger = LoggerFactory.getLogger(MovieController.class);
 
-    @Autowired
-    private LoadBalancerClient loadBalancerClient;
+//    @Autowired
+//    private LoadBalancerClient loadBalancerClient;
 
     @GetMapping("/user/{id}")
     public User findById(@PathVariable Long id) {
         return this.restTemplate.getForObject("http://microservice-provider-user/" + id, User.class);
     }
-    @GetMapping("/log-user-instance")
-    public void logUserInstance(){
-        ServiceInstance serviceInstance = loadBalancerClient.choose("microservice-provider-user");
-        MovieController.logger.info("{}:{}:{}",serviceInstance.getServiceId(),serviceInstance.getHost(),serviceInstance.getPort());
-    }
+//    @GetMapping("/log-user-instance")
+//    public void logUserInstance(){
+//        ServiceInstance serviceInstance = loadBalancerClient.choose("microservice-provider-user");
+//        MovieController.logger.info("{}:{}:{}",serviceInstance.getServiceId(),serviceInstance.getHost(),serviceInstance.getPort());
+//    }
 
 }

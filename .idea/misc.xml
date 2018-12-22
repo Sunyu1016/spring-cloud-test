@@ -9,6 +9,20 @@
         <option value="$PROJECT_DIR$/microservice-provider-user-8000/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-provider-user-8001/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consoumer-movie-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-file-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-user-8002/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback-factory/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-hystrix-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-turbine-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul-aggregation/pom.xml" />
       </list>
     </option>
   </component>

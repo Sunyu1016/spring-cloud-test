@@ -4,10 +4,24 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/microservice-consoumer-movie-feign/microservice-consoumer-movie-feign.iml" filepath="$PROJECT_DIR$/microservice-consoumer-movie-feign/microservice-consoumer-movie-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/microservice-consumer-movie-feign-hystrix-fallback.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/microservice-consumer-movie-feign-hystrix-fallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback-factory/microservice-consumer-movie-feign-hystrix-fallback-factory.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback-factory/microservice-consumer-movie-feign-hystrix-fallback-factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign-manual/microservice-consumer-movie-feign-manual.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/microservice-consumer-movie-feign-manual.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/microservice-consumer-movie-ribbon-hystrix.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/microservice-consumer-movie-ribbon-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-turbine-mq/microservice-consumer-movie-ribbon-hystrix-turbine-mq.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-turbine-mq/microservice-consumer-movie-ribbon-hystrix-turbine-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka-8762/microservice-discovery-eureka-8762.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka-8762/microservice-discovery-eureka-8762.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-file-upload/microservice-file-upload.iml" filepath="$PROJECT_DIR$/microservice-file-upload/microservice-file-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul/microservice-gateway-zuul.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul/microservice-gateway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul-aggregation/microservice-gateway-zuul-aggregation.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul-aggregation/microservice-gateway-zuul-aggregation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul-fallback/microservice-gateway-zuul-fallback.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul-fallback/microservice-gateway-zuul-fallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul-filter/microservice-gateway-zuul-filter.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul-filter/microservice-gateway-zuul-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-turbine/microservice-hystrix-turbine.iml" filepath="$PROJECT_DIR$/microservice-hystrix-turbine/microservice-hystrix-turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user-8000/microservice-provider-user-8000.iml" filepath="$PROJECT_DIR$/microservice-provider-user-8000/microservice-provider-user-8000.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user-8001/microservice-provider-user-8001.iml" filepath="$PROJECT_DIR$/microservice-provider-user-8001/microservice-provider-user-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-provider-user-8002/microservice-provider-user-8002.iml" filepath="$PROJECT_DIR$/microservice-provider-user-8002/microservice-provider-user-8002.iml" />
     </modules>
   </component>
 </project>

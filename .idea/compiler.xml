@@ -8,20 +8,48 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-consoumer-movie-feign" />
         <module name="microservice-consumer-movie" />
+        <module name="microservice-consumer-movie-feign-hystrix-fallback" />
+        <module name="microservice-consumer-movie-feign-hystrix-fallback-factory" />
+        <module name="microservice-consumer-movie-feign-manual" />
+        <module name="microservice-consumer-movie-ribbon" />
+        <module name="microservice-consumer-movie-ribbon-hystrix" />
+        <module name="microservice-consumer-movie-ribbon-hystrix-turbine-mq" />
         <module name="microservice-discovery-eureka" />
         <module name="microservice-discovery-eureka-8762" />
+        <module name="microservice-file-upload" />
+        <module name="microservice-gateway-zuul" />
+        <module name="microservice-gateway-zuul-aggregation" />
+        <module name="microservice-gateway-zuul-fallback" />
+        <module name="microservice-gateway-zuul-filter" />
+        <module name="microservice-hystrix-dashboard" />
+        <module name="microservice-hystrix-turbine" />
         <module name="microservice-provider-user-8000" />
         <module name="microservice-provider-user-8001" />
+        <module name="microservice-provider-user-8002" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microservice-consoumer-movie-feign" target="1.8" />
       <module name="microservice-consumer-movie" target="1.8" />
+      <module name="microservice-consumer-movie-feign-hystrix-fallback" target="1.8" />
+      <module name="microservice-consumer-movie-feign-hystrix-fallback-factory" target="1.8" />
+      <module name="microservice-consumer-movie-feign-manual" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon-hystrix" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon-hystrix-turbine-mq" target="1.8" />
       <module name="microservice-discovery-eureka" target="1.8" />
       <module name="microservice-discovery-eureka-8762" target="1.8" />
+      <module name="microservice-file-upload" target="1.8" />
+      <module name="microservice-gateway-zuul" target="1.8" />
+      <module name="microservice-gateway-zuul-aggregation" target="1.8" />
+      <module name="microservice-gateway-zuul-fallback" target="1.8" />
+      <module name="microservice-gateway-zuul-filter" target="1.8" />
+      <module name="microservice-hystrix-dashboard" target="1.8" />
+      <module name="microservice-hystrix-turbine" target="1.8" />
       <module name="microservice-provider-user" target="1.8" />
       <module name="microservice-provider-user-8000" target="1.8" />
       <module name="microservice-provider-user-8001" target="1.8" />
+      <module name="microservice-provider-user-8002" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
